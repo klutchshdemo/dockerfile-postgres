@@ -1,3 +1,3 @@
 FROM postgres
-USER postgres
+USER root
 CMD ["postgres"]
