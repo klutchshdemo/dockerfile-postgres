@@ -1,3 +1,2 @@
-FROM postgres
-USER root
-CMD ["postgres"]
+# Use the official PostgreSQL image as the base image
+FROM postgres:latest
